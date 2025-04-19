@@ -1,0 +1,29 @@
+body {
+    background-color: #192841;
+    font-family: "JetBrains Mono";
+}
+.workw h1 {
+    text-align: center;
+    color: #65728a;
+}
+
+.workw a {
+    box-shadow: 20px 20px 5px #1d2533;
+    transition: 30s ease-in-out;
+}
+
+
+@keyframes small {
+    0% {
+
+    }
+    100% {
+        transform: scale(0.92);
+    }
+}
+
+.workw a:hover {
+    animation-name: small;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}

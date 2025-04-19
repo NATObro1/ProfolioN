@@ -1,0 +1,36 @@
+body {
+    background-color: #192841;
+    font-family: "JetBrains Mono";
+}
+
+.Ccontact {
+    color: #ecd0ff;
+}
+
+h3 {
+    color: #ecd0ff;
+}
+
+.contact {
+    align-items: center;
+    padding: 100px 150px;
+    background-color: #121e33;
+}
+
+button a {
+    text-decoration: none;
+    color: #8aabca;
+}
+
+button {
+    border-radius: 100px;
+    border: 6px solid #94aec7;
+    margin: auto;
+    padding: 10px;
+    width: 250px;
+    background-color: transparent;
+    color: #8aabca;
+    font-family: "JetBrains Mono";
+    position: relative;
+    transition: 0.3 ease-in-out;
+}
